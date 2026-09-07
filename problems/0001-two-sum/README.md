@@ -18,4 +18,4 @@ You can return the answer in any order.
 
 ## Approach
 
-Time O( ) · Space O( )
+Time O(n2)

@@ -3,11 +3,11 @@
 Solutions to LeetCode problems. One folder per problem, one branch per problem,
 merged into `main` when solved.
 
-**0 solved** — 0 easy · 0 medium · 0 hard
+**1 solved** — 1 easy · 0 medium · 0 hard
 
 | # | Problem | Difficulty | Pattern | Solutions | Solved |
 |---|---------|------------|---------|-----------|--------|
-| 1 | [Two Sum](problems/0001-two-sum/) | Easy | --------- | [Swift](problems/0001-two-sum/Swift.swift) · [Py](problems/0001-two-sum/Python.py) | 2026-09-07 |
+| 1 | [Two Sum](problems/0001-two-sum/) | Easy | sort + two pointers | [Swift](problems/0001-two-sum/Swift.swift) · [Py](problems/0001-two-sum/Python.py) | 2026-09-07 |
 
 <!-- Copy this shape for each new row:
 | 1 | [Two Sum](problems/0001-two-sum/) | Easy | hash map | [Swift](problems/0001-two-sum/Swift.swift) · [Py](problems/0001-two-sum/Python.py) | 2026-09-07 |

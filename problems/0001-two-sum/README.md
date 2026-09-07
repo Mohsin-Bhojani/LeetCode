@@ -4,18 +4,22 @@
 
 ## Problem
 
-You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-You can return the answer in any order.
+Given an array of integers and a target, return the indices of the two entries
+that add up to the target. Exactly one such pair exists, and an entry cannot be
+paired with itself. The order of the two returned indices does not matter.
 
 ## Constraints
 
-- 2 ≤ n ≤ 10⁴
-- −10⁹ ≤ values, target ≤ 10⁹
-- Exactly one valid answer
+- 2 ≤ n ≤ 10⁴ — O(n²) is 10⁸ operations, so it is borderline at best
+- −10⁹ ≤ values, target ≤ 10⁹ — negatives are in play
+- Exactly one valid answer — no "no answer" case to handle
 
 ## Approach
 
-Time O(n2)
+**Swift** — sort a copy, then walk two pointers inward from both ends until the
+pair sums to the target, recovering the original positions with `firstIndex` /
+`lastIndex`.
+Time O(n log n) · Space O(n)
+
+**Python** — nested loops over every pair.
+Time O(n²) · Space O(1)

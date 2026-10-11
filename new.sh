@@ -53,6 +53,10 @@ if [ ! -f "$dir/README.md" ]; then
 **Pattern:** <!-- e.g. hash map, two pointers, sliding window -->
 **Solved:** $(date +%Y-%m-%d)
 
+## Concepts to learn
+
+<!-- Share a screenshot of the problem with Claude to fill this in -->
+
 ## Approach
 
 <!-- Explain your idea here -->

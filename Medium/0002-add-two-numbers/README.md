@@ -120,9 +120,14 @@ takes O(max(m, n)) space.
 
 ## Approach
 
-<!-- Explain your idea here -->
+**Python** — walk each list into an array of digits, then turn each array into an
+integer by adding `digit * 10**index` (index 0 is the ones digit, because the list
+is stored in reverse). Add the two integers, convert the sum to a string, reverse
+it, and build a new linked list from those digits. This relies on Python's
+arbitrary-size integers; in Swift the numbers would overflow `Int`.
 
 ## Complexity
 
-- Time: O(?)
-- Space: O(?)
+- Time: O(m + n), where m and n are the lengths of the two lists (each list is
+  walked once, and the result has at most max(m, n) + 1 digits)
+- Space: O(m + n) for the digit arrays, the sum's digit list and the output list

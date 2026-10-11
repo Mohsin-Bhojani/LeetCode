@@ -1,7 +1,7 @@
 # 2. Add Two Numbers
 
 **Difficulty:** Medium · **Link:** https://leetcode.com/problems/add-two-numbers/
-**Pattern:** <!-- e.g. hash map, two pointers, sliding window -->
+**Pattern:** linked list
 **Solved:** 2026-10-11
 
 ## Concepts to learn

@@ -23,7 +23,7 @@ Run `./new.sh` again with another language to add a second solution to the same 
 | # | Problem | Difficulty | Pattern | Solutions | Solved |
 |---|---------|------------|---------|-----------|--------|
 | 1 | [Two Sum](Easy/0001-two-sum/) | Easy | sort + two pointers | [py](Easy/0001-two-sum/Solution.py) [swift](Easy/0001-two-sum/Solution.swift) | 2026-09-07 |
-| 2 | [Add Two Numbers](Medium/0002-add-two-numbers/) | Medium |  | [py](Medium/0002-add-two-numbers/Solution.py) | 2026-10-11 |
+| 2 | [Add Two Numbers](Medium/0002-add-two-numbers/) | Medium | linked list | [py](Medium/0002-add-two-numbers/Solution.py) | 2026-10-11 |
 <!-- SOLUTIONS:END -->
 
 Fill in **Pattern** in each problem's README. Scanning that column later shows what

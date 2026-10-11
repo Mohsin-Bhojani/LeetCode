@@ -126,8 +126,22 @@ is stored in reverse). Add the two integers, convert the sum to a string, revers
 it, and build a new linked list from those digits. This relies on Python's
 arbitrary-size integers; in Swift the numbers would overflow `Int`.
 
+**Swift** — add digit by digit, like column addition by hand. Walk both lists
+together, treating a finished list's digit as 0. Each step computes
+`sum = digit1 + digit2 + carry`, appends a node holding `sum % 10` to a list that
+starts from a dummy head, and carries `sum / 10` to the next step. The loop runs
+while either list has nodes left or the carry isn't 0, which adds the final digit
+for cases like `[5] + [5] = [0,1]`. No big integers, so it works in any language.
+
 ## Complexity
 
-- Time: O(m + n), where m and n are the lengths of the two lists (each list is
-  walked once, and the result has at most max(m, n) + 1 digits)
+m and n are the lengths of the two lists.
+
+**Python**
+- Time: O(m + n): each list is walked once, and the result has at most
+  max(m, n) + 1 digits
 - Space: O(m + n) for the digit arrays, the sum's digit list and the output list
+
+**Swift**
+- Time: O(max(m, n)): one pass over both lists at the same time
+- Space: O(1) extra besides the output list, which has at most max(m, n) + 1 nodes

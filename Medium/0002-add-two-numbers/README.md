@@ -1,7 +1,7 @@
 # 2. Add Two Numbers
 
 **Difficulty:** Medium · **Link:** https://leetcode.com/problems/add-two-numbers/
-**Pattern:** linked list
+**Pattern:** linked list, dummy head, carry
 **Solved:** 2026-10-11
 
 ## Concepts to learn

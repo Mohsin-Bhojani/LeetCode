@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "**/.gitkeep": true,
+    "**/.DS_Store": true
+  }
+}

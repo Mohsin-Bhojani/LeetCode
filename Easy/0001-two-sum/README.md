@@ -1,6 +1,8 @@
 # 1. Two Sum
 
 **Difficulty:** Easy · **Link:** https://leetcode.com/problems/two-sum/
+**Pattern:** sort + two pointers
+**Solved:** 2026-09-07
 
 ## Problem
 

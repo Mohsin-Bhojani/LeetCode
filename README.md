@@ -18,7 +18,7 @@ Run `./new.sh` again with another language to add a second solution to the same 
 ## Solved
 
 <!-- SOLUTIONS:START -->
-**Total: 18** — Easy: 6 · Medium: 11 · Hard: 1
+**Total: 19** — Easy: 7 · Medium: 11 · Hard: 1
 
 | # | Problem | Difficulty | Pattern | Solutions | Solved |
 |---|---------|------------|---------|-----------|--------|
@@ -39,6 +39,7 @@ Run `./new.sh` again with another language to add a second solution to the same 
 | 20 | [Valid Parentheses](Easy/0020-valid-parentheses/) | Easy |  | [cpp](Easy/0020-valid-parentheses/Solution.cpp) [py](Easy/0020-valid-parentheses/Solution.py) [swift](Easy/0020-valid-parentheses/Solution.swift) | 2026-10-11 |
 | 21 | [Merge Two Sorted Lists](Easy/0021-merge-two-sorted-lists/) | Easy |  | [cpp](Easy/0021-merge-two-sorted-lists/Solution.cpp) [py](Easy/0021-merge-two-sorted-lists/Solution.py) [swift](Easy/0021-merge-two-sorted-lists/Solution.swift) | 2026-10-11 |
 | 22 | [Generate Parentheses](Medium/0022-generate-parentheses/) | Medium |  | [cpp](Medium/0022-generate-parentheses/Solution.cpp) [py](Medium/0022-generate-parentheses/Solution.py) [swift](Medium/0022-generate-parentheses/Solution.swift) | 2026-10-11 |
+| 83 | [Remove Duplicates from Sorted List](Easy/0083-remove-duplicates-from-sorted-list/) | Easy | linked list, in-place deletion | [swift](Easy/0083-remove-duplicates-from-sorted-list/Solution.swift) | 2026-10-16 |
 | 1752 | [Check if Array Is Sorted and Rotated](Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |  | [cpp](Easy/1752-check-if-array-is-sorted-and-rotated/Solution.cpp) [py](Easy/1752-check-if-array-is-sorted-and-rotated/Solution.py) [swift](Easy/1752-check-if-array-is-sorted-and-rotated/Solution.swift) | 2026-10-11 |
 <!-- SOLUTIONS:END -->
 
